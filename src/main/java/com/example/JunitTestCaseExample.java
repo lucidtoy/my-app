@@ -10,10 +10,10 @@ public class JunitTestCaseExample {
     }
 
     public int multiply(int a, int b) {
-        return a * b;
+        return a * 0;
     }
 
     public int divide(int a, int b) {
-        return a - b;
+        return a - 0;
     }
 }
