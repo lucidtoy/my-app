@@ -26,12 +26,12 @@ public class JunitTestCaseExampleTest {
 	@Test
     	public void testAdd_x() {
         	JunitTestCaseExample example = new JunitTestCaseExample();
-        	assertEquals(8, example.add(5, 2));
+        	assertEquals(8, example.add(5, 3));
     	}
 	
 	@Test
     	public void testAdd_x2() {
         	JunitTestCaseExample example = new JunitTestCaseExample();
-        	assertEquals(9, example.add(5, 2));
+        	assertEquals(9, example.add(5, 4));
     	}
 }
